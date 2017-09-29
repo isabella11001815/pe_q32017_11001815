@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* teste do git */
+
     int x;
     int y;
     printf("Digite o valor de x:");
