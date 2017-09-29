@@ -2,12 +2,18 @@
 
 int main()
 {
-    int valor;
-    printf("Digite um valor: ");
-    scanf("%d", &valor);
+    double soma = 0;
   
-    int soma = (valor*(valor+1))/2; /* Essa e a formula da soma de uma progressao aritmetica com n termos, razao 1 e termo inicial igual a 1 */
-    printf ("A soma de 1 até o valor dado é: %d", soma);
+    for (int i=1; i<=10; i++){
+        printf("Digite um número: ");
+        int numero;
+        scanf("%d", &numero);
+        soma = soma + numero; /* Nesse laco recebemos 10 numeros digitados pelo usuario e os somamos */
+    }
     
-    return 0;
+    printf("Soma: %lf\n", soma);
+    double media = soma/10; /* Como nao ha peso e sempre recebemos a mesma quantidade, podemos apenas dividir por 10 */
+    printf("Media: %lf\n", media);
+  
+  return 0;
 }
