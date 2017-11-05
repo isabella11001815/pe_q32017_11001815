@@ -23,7 +23,7 @@ int vogais (char* c)
 
 int main()
 {
-	/*Usamos essa forma para receber uma string*/
+    /*Usamos essa forma para receber uma string*/
     char entrada[255];
     fgets (entrada, 255, stdin);
   
